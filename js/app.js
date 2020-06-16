@@ -115,3 +115,5 @@ new TypeIt("#hero", {
     alert("Form Submitted Successfully!");
     return true;
   }
+
+  
