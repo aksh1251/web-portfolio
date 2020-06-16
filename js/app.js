@@ -84,6 +84,9 @@ new TypeIt("#hero", {
   .delete()
   .go();
 
+  function closeSidebar() {
+    sidebar.classList.remove("show-sidebar");
+  }
 
   //Contact Form Validation
   function validate(){

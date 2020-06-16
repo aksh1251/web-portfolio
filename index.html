@@ -30,13 +30,13 @@
             <a href="index.html">home</a>
           </li>
           <li>
-            <a href="about.html">about</a>
+            <a href="#about">about</a>
           </li>
           <li>
-            <a href="projects.html">projects</a>
+            <a href="#projects">projects</a>
           </li>
           <li>
-            <a href="contact.html">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
       </div>
@@ -55,13 +55,13 @@
             <a href="index.html">home</a>
           </li>
           <li>
-            <a href="about.html">about</a>
+            <a href="#about" onclick="closeSidebar()">about</a>
           </li>
           <li>
-            <a href="projects.html">projects</a>
+            <a href="#projects" onclick="closeSidebar()">projects</a>
           </li>
           <li>
-            <a href="contact.html">contact</a>
+            <a href="#contact" onclick="closeSidebar()">contact</a>
           </li>
         </ul>
         <!-- social icons -->
@@ -148,7 +148,7 @@
     <!-- end of about -->
 
     <!-- skills -->
-    <section class="section">
+    <section id="skills" class="section">
       <!-- section title -->
       <div class="section-title">
         <h2>Skills</h2>
@@ -203,7 +203,7 @@
     <!-- end of skills -->
 
     <!--experience-->
-    <section class="section">
+    <section id="experience" class="section">
       <!-- section title -->
       <div class="section-title">
         <h2>Experience</h2>
@@ -233,9 +233,10 @@
         </div>
         <!-- end of single service -->
       <!--end of experience -->
+    </section>
 
     <!-- timeline -->
-    <section class="section timeline">
+    <section id="education" class="section timeline">
       <!-- section title -->
       <div class="section-title">
         <h2>education</h2>
@@ -272,6 +273,7 @@
           <span class="number">
             3
           </span>
+          </p>
         </article>
         <!-- end of  single timeline item -->
         <!-- single timeline item -->
@@ -311,7 +313,7 @@
     <!--end of  timeline -->
     
     <!--volunteer work-->
-    <section class="section">
+    <section id="volunteer" class="section">
       <!-- section title -->
       <div class="section-title">
         <h2>Volunteer Work</h2>
@@ -336,11 +338,11 @@
           <p>Technical Workshop Organiser</p>
         </article>
         </div>
-        <!-- end of single service -->
       <!--end of volunteer work -->
+    </section>
 
      <!-- languages -->
-     <section class="section about">
+     <section id="languages" class="section about">
       <div class="section-center about-center">
         <!-- about info -->
         <article class="about-info">
@@ -365,13 +367,10 @@
         </article>
       </div>
     </section>
-    <!-- end of about image -->
-      <!--end of section title -->
-    </section>
     <!-- end of languages -->
 
     <!-- connect -->
-    <section class="connect">
+    <section id="connect" class="connect">
       <video
         controls
         autoplay
@@ -468,6 +467,7 @@
           <div class="card-side card-back">
             <a href="https://covid-tracker-theta.now.sh/"><button class="btn">visit site</button></a>
           </div>
+        </div>
         </div>
         <!-- end of single article -->
     </section>
