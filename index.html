@@ -473,6 +473,23 @@
     </section>
     <!--end of projects -->
 
+    <!--contact form-->
+    <section id="contact" class="section single-page">
+      <!-- section title -->
+      <div class="section-title">
+        <h1>contact</h1>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div id="error_message"></div>
+      <form id="form" name="contact" method="POST" data-netlify="true" onsubmit="return validate()">     
+          <input name="name" id="name" type="text" class="feedback-input" placeholder="Name" />   
+          <input name="email" id="email" type="text" class="feedback-input" placeholder="Email" />
+          <textarea name="text" id="message" class="feedback-input" placeholder="Message"></textarea>
+          <input type="submit" class="btn" value="SUBMIT"/>
+      </form>
+    </section>
+
     <!-- footer -->
     <footer class="footer">
       <p>&copy; <span id="date"></span> akshaya srinivas. all rights reserved</p>
