@@ -680,8 +680,8 @@ Projects
   perspective: 1500px;
 }
 .card-side {
-  -webkit-transition: all 2s linear;
-  transition: all 2s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
